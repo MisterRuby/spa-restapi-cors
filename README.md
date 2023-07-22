@@ -13,9 +13,10 @@
 
 - 교차 출처 리소스 공유. 추가 HTTP 헤더를 사용하여, 한 출처에서 실행 중인 웹 애플리케이션이 다른 출처의 선택한 자원에 접근할 수 있는 권한을 부여하도록 브라우저에 알려주는 체제
 
-![image](https://github.com/MisterRuby/spa-restapi-cors/assets/93859705/a45e1f88-a850-4eed-a0ba-53c380b664c1)
+![image](https://github.com/MisterRuby/spa-restapi-cors/assets/93859705/a45e1f88-a850-4eed-a0ba-53c380b664c1)  
 
-<br/>
+
+
 
 ### Spring Security CORS Setting
 
