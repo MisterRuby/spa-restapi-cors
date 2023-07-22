@@ -17,15 +17,13 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 public class SecurityConfig {
 
     @Bean
-    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) {
         // CORS 허용
         http.csrf(AbstractHttpConfigurer::disable)
             .cors(corsConfigurer -> corsConfigurer.configurationSource(corsConfigurationSource()));
 
         // 페이지 권한 설정
-        http.authorizeHttpRequests((authorizeHttpRequests) ->
-                authorizeHttpRequests.anyRequest().permitAll()
-        );
+        http.authorizeHttpRequests(authorizeHttpRequests -> authorizeHttpRequests.anyRequest().permitAll());
 
         return http.build();
     }
