@@ -15,7 +15,7 @@
 
 ![image](https://github.com/MisterRuby/spa-restapi-cors/assets/93859705/a45e1f88-a850-4eed-a0ba-53c380b664c1)
 
-<br>
+<br/>
 
 ### Spring Security CORS Setting
 
