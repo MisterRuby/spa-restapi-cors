@@ -2,7 +2,7 @@
 
 - 인증된 유저의 계정을 사용해 유저의 의도와는 무관하게 악의적인 변경 요청을 만들어 보내는 기법
 
-### CSRF 공격 방지
+### CSRF 공격과 방지
 
 ![image](https://github.com/MisterRuby/spa-restapi-cors/assets/93859705/76da9a32-861b-48a3-937e-40bf8d7f7d68)
 
