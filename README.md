@@ -28,6 +28,8 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) {
         // CORS 허용
+	// 페이지를 제공하는 서버(Origin Server)와 데이터를 제공하는 서버(Other Server)가 다를 경우
+	// Other Server 에서 CSRF 토큰을 제공할 수 없으므로 CSRF Filter 인증을 사용하지 않음
         http.csrf(AbstractHttpConfigurer::disable)
             .cors(corsConfigurer -> corsConfigurer.configurationSource(corsConfigurationSource()));
 
